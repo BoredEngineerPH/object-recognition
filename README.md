@@ -16,8 +16,12 @@ A python object recognition using OpenCV and Yolo3.
 * Yolo3 datasets, you can download this files from Darknet repository `https://github.com/pjreddie/darknet`
 	* `coco.names`
 	* `yolov3.cfg`
-	* `yolov3.weights`
-* `git-lfs` to push yolo files.
+	* `yolov3.weights` *(See note)*
+	* `git-lfs` to push yolo files.
+
+Note: Due to filesize limitation you may need to download this from the author website `https://pjreddie.com/media/files/yolov3.weights` and save it under `data/yolov3/` directory) or run this wget command and save it to data directory, you are at that project work directory.
+
+`wget https://pjreddie.com/media/files/yolov3.weights -P data/yolov3/`
 
 **Note:** You can run the python library installation by using `pip` by running this on your project root directory `pip3 install -r requirements.txt`
 
