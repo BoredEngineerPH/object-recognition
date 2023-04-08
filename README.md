@@ -9,9 +9,8 @@ A python object recognition using OpenCV and Yolo3.
 * Version 1.0
 
 ### System requirements ###
-* Python 3.7
-* OpenCV 3.4.10.35 (`pip3 install opencv-python==3.4.10.35`)
-* NumPy 1.21.6 (`pip3 install numpy==1.21.6`)
+* Python 3.8.16 (last version of 3.8)
+* Dependency (numpy & opencv) see `requiements.txt`
 * Computer with GPU, built-in gpu might work it will just be slow.
 * Yolo3 datasets, you can download this files from Darknet repository `https://github.com/pjreddie/darknet`
 	* `coco.names`
@@ -32,8 +31,16 @@ If you want to add new library you need to --
 ### How do I get set up? ###
 
 * Install your preferred IDE, i recommend `pyCharm`
-* I also recommend the use of python virtual environment `venv`. See [Creation of virtual environments](https://docs.python.org/3/library/venv.html).
+* I also recommend the use of python virtual environment `venv`. See **Setting up virtual environmet**.
 * See `requirements.txt` python library dependencies
+
+#### Setting up virtual environmet #### 
+##### Pre-requisites #####
+* To install `pyenv` See [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
+* Once installed you can then install any python version to view whats available you can run `pyenv install --list` since we are using Python v3.8.16 you can install it by running `pyenv install 3.8.16`
+* Once the python is installed locate `.pynenv/version/3.8.16/bin`
+* To setup and use `venv` See [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
+ 
 
 ### Contribution guidelines ###
 
